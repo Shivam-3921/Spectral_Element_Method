@@ -10,10 +10,10 @@ The notebook included in this repository:
 - Formulates the SEM in 1D using a Galerkin-based variational approach.
 - Constructs Lagrange interpolating polynomials on LGL nodes.
 - Assembles the stiffness and mass matrices using appropriate quadrature rules.
-- Solves an example problem with known exact solution:  
-  \[
+- Solves an example problem with known exact solution:
+$$
   -\Delta u + u = (\pi^2 + 1)\sin(\pi x), \quad u(0) = u(1) = 0
-  \]
+$$
 - Compares the numerical solution with the analytical solution and studies error convergence.
 
 ## Key Features
@@ -31,9 +31,9 @@ The notebook included in this repository:
 ## Example Problem
 
 We solve the boundary value problem:
-\[
+$$
 -\frac{d^2u}{dx^2} + u = (\pi^2 + 1)\sin(\pi x), \quad x \in (0,1), \quad u(0)=u(1)=0
-\]
+$$
 whose exact solution is \( u(x) = \sin(\pi x) \).
 
 ## Results
